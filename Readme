@@ -1,0 +1,12 @@
+1. Run Doc2MatInput class
+2. Run doc2mat perl script
+	Ex: perl.exe e:\IRE_MP\doc2mat\doc2mat e:\IRE_MP\Doc2MatInput\File e:\IRE_MP\Doc2MatInput\File.mat
+	
+3. Run Cluto
+	Ex: vcluster.exe -clmethod="rb" e:\IRE_MP\Doc2MatInput\File.mat 150
+	
+4. Update Properties File
+
+5. Run Cluster class
+6. Run IndexClusters class
+7. Run SearchIndex class
